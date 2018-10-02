@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { HashRouter } from 'react-router-dom';
 import RootStore from './stores/RootStore';
 import { Provider } from 'mobx-react';
 import Routes from './Routes';
@@ -13,9 +14,11 @@ export class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
-        <Layout>
-          <Routes />
-        </Layout>
+        <HashRouter>
+          <Layout>
+            <Routes />
+          </Layout>
+        </HashRouter>
       </Provider>
     );
   }

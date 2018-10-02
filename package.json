@@ -50,7 +50,6 @@
   "dependencies": {
     "@blueprintjs/core": "^3.6.1",
     "@blueprintjs/icons": "^3.1.0",
-    "@reach/router": "^1.2.1",
     "@types/electron-devtools-installer": "^2.0.2",
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.8",
@@ -59,6 +58,7 @@
     "electron-devtools-installer": "^2.1.0",
     "electron-squirrel-startup": "^1.0.0",
     "emotion": "^9.2.12",
+    "hash-source": "^1.0.1",
     "mobx": "^5.5.0",
     "mobx-react": "^5.2.8",
     "mobx-state-tree": "^3.5.0",
@@ -67,13 +67,16 @@
     "react-dom": "^16.5.2",
     "react-emotion": "^9.2.12",
     "react-hot-loader": "^4.3.11",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "tslib": "^1.4.0",
     "typesync": "^0.3.1"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.6",
-    "@types/reach__router": "^1.0.1",
     "@types/react-hot-loader": "^4.1.0",
+    "@types/react-router": "^4.0.31",
+    "@types/react-router-dom": "^4.3.1",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
